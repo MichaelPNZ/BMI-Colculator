@@ -13,6 +13,7 @@
 		578FBEC129868C230077F7AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578FBEBF29868C230077F7AC /* Main.storyboard */; };
 		578FBEC329868C250077F7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578FBEC229868C250077F7AC /* Assets.xcassets */; };
 		578FBEC629868C250077F7AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578FBEC429868C250077F7AC /* LaunchScreen.storyboard */; };
+		578FBED3298AD0C30077F7AC /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578FBED2298AD0C30077F7AC /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		578FBEC229868C250077F7AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		578FBEC529868C250077F7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		578FBEC729868C250077F7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578FBED2298AD0C30077F7AC /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,38 @@
 			children = (
 				578FBEB929868C230077F7AC /* AppDelegate.swift */,
 				578FBEBB29868C230077F7AC /* SceneDelegate.swift */,
-				578FBEBD29868C230077F7AC /* ViewController.swift */,
-				578FBEBF29868C230077F7AC /* Main.storyboard */,
+				578FBECF2989B0980077F7AC /* Views */,
+				578FBECE2989B08B0077F7AC /* Models */,
+				578FBECD2989B0710077F7AC /* Controllers */,
 				578FBEC229868C250077F7AC /* Assets.xcassets */,
 				578FBEC429868C250077F7AC /* LaunchScreen.storyboard */,
 				578FBEC729868C250077F7AC /* Info.plist */,
 			);
 			path = "BMI Colculator";
+			sourceTree = "<group>";
+		};
+		578FBECD2989B0710077F7AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				578FBEBD29868C230077F7AC /* ViewController.swift */,
+				578FBED2298AD0C30077F7AC /* ResultViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		578FBECE2989B08B0077F7AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		578FBECF2989B0980077F7AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				578FBEBF29868C230077F7AC /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +168,7 @@
 				578FBEBE29868C230077F7AC /* ViewController.swift in Sources */,
 				578FBEBA29868C230077F7AC /* AppDelegate.swift in Sources */,
 				578FBEBC29868C230077F7AC /* SceneDelegate.swift in Sources */,
+				578FBED3298AD0C30077F7AC /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
